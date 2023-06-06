@@ -18,8 +18,8 @@ However, whenever running my code, it seems to index the number of site visitors
 
 I start the server using Javac and Java to compile and run `TestServer`. In Git Bash, I use curl http://localhost:4000 to visit the website normally, then I run my Bash Script to both check for the total website visits as well as copy the results of curling http://localhost:4000/iterate (which shows different messages based on the total number of times the website has been visited).
 
-![1 terminal](https://github.com/Reckswell/CSE-15L-Lab-Report-5/assets/73510375/f40503f8-a8cc-4b09-89a7-e4fee032ede0)
-![1 code](https://github.com/Reckswell/CSE-15L-Lab-Report-5/assets/73510375/ce2edb2d-e6ea-4b2f-bf51-346478dea080)
+![1 terminal](https://github.com/Reckswell/CSE-15L-Lab-Report-5/assets/73510375/d76b4d1c-88f7-4ea7-9ee7-a90622ddd509)
+![1 code](https://github.com/Reckswell/CSE-15L-Lab-Report-5/assets/73510375/6e720c60-26aa-4258-bf97-d6d676811b6c)
 
 ## TA's Response:
 Is your use of the mod indicator for your if-else statements in `TestServer.java` corresponding with what you want to do? If every 3rd visit to the website should return the third message, then the corresponding `repeats % 3` should be a different value to match that. Try changing your mod indicators, and then restarting the server to see if it's fixed.
@@ -29,15 +29,15 @@ Also, be wary of having your function return null as a placeholder for java. Ins
 ## Student's Response:
 Thank you, it works now.
 
-![image](https://github.com/Reckswell/CSE-15L-Lab-Report-5/assets/73510375/cc5960e7-3839-437f-9c5d-c2dba7f528e1)
-![image](https://github.com/Reckswell/CSE-15L-Lab-Report-5/assets/73510375/5360e5e3-e343-48e3-982b-45e9c88a8746)
+![image](https://github.com/Reckswell/CSE-15L-Lab-Report-5/assets/73510375/f4ca5fc5-39a7-4fdf-b883-186aa412c827)
+![image](https://github.com/Reckswell/CSE-15L-Lab-Report-5/assets/73510375/ef52129a-fc15-4767-a145-8609c65542d0)
 
 ## Setup Information
-* File/Directory Structure:
-*| +--- /Lab Report 5
-     | +--- testServer.sh
-     | +--- Server.java
-     | +--- TestServer.java
+File/Directory Structure:
+* | +--- /Lab Report 5
+  - | +--- testServer.sh
+  - | +--- Server.java
+  - | +--- TestServer.java
 
 ##Contents of each file prior to fixing:
 ### `TestServer.java`:
