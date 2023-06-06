@@ -39,7 +39,7 @@ File/Directory Structure:
   - | +--- Server.java
   - | +--- TestServer.java
 
-##Contents of each file prior to fixing:
+## Contents of each file prior to fixing:
 ### `TestServer.java`:
 ```
 import java.io.IOException;
